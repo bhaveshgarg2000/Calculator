@@ -14,6 +14,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+.hello{
+    align-items: center;
+    // padding: 5px;
+    // margin: 5px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-style: italic;
+  
+}
+
 @mixin shadow{
 box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(black,0.4);
 }
