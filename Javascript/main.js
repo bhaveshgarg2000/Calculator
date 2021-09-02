@@ -6,6 +6,7 @@ document.querySelectorAll(".num_key").forEach(
     el.onclick = () => $input.value = $input.value !== "0" ? $input.value + el.innerText : el.innerText;
   });
 
+// creating an array to contain the value of pressed buttons
 const buffer = []
 
 const opCallback = opName => () => {
